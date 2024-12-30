@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin: 0 auto;
+            width: 50%;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #e2e2e2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome <span data-th-text="${name}"></span></h1>
+        <a th:href="${thymeleaf}">Navigate to Thymeleaf</a>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est eveniet voluptate blanditiis earum iure repellendus, impedit incidunt soluta, pariatur corporis alias voluptas. Officiis tempora alias qui soluta repellat aliquam accusamus.
+        </p>
+    </div>
+</body>
+</html>
